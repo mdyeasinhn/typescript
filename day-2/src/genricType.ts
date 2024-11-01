@@ -37,7 +37,23 @@
     type GenricTuple<x, y> = [x, y]
     const manush: GenricTuple<string, string> = ["mr.x", "mr.y"];
 
-    const UserWithID: GenricTuple<number,{name:string, age: number, email:string}>= [123, {name : "enan", age :34, email : "yeasin@gmail.com"}];
+    const UserWithID: GenricTuple<number, { name: string, age: number, email: string }> = [123, { name: "enan", age: 34, email: "yeasin@gmail.com" }];
+
+
+
+    // Generic with Interface
+
+    interface Person {
+        name: string;
+        age: number;
+    }
+
+    const person: GenricArray<Person> = [
+        {
+            name: "Yeasin",
+            age: 23,
+        }
+    ]
 
 
 

@@ -20,5 +20,11 @@
     add(34, 43);
     var manush = ["mr.x", "mr.y"];
     var UserWithID = [123, { name: "enan", age: 34, email: "yeasin@gmail.com" }];
+    var person = [
+        {
+            name: "Yeasin",
+            age: 23,
+        }
+    ];
     //
 }
