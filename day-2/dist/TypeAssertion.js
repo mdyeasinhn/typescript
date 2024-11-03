@@ -2,21 +2,21 @@
 {
     //
     //Type assertion
-    var anything = void 0;
+    let anything;
     anything = "Next level web developere";
     anything = 222;
     //(anything as number)
-    var KgToGm = function (value) {
+    const KgToGm = (value) => {
         if (typeof value === "string") {
-            var convertedValue = parseFloat(value) * 1000;
-            return "The converted value : ".concat(convertedValue);
+            const convertedValue = parseFloat(value) * 1000;
+            return `The converted value : ${convertedValue}`;
         }
         if (typeof value === "number") {
             return value * 1000;
         }
     };
-    var result1 = KgToGm(1000);
-    var result2 = KgToGm("1000");
+    const result1 = KgToGm(1000);
+    const result2 = KgToGm("1000");
     try {
     }
     catch (error) {
