@@ -53,7 +53,7 @@
             super(name, age, address)
             this.designation = designation;
        }
-    //    getSleep(numberOfHours: number) {   // get to parent
+    //    getSleep(numberOfHours: number) {    --> get to parent
     //        console.log(` ${this.name} will sleep for ${numberOfHours}`);
     //    }
 
